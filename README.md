@@ -1,5 +1,9 @@
 # 🧪 Laboratorio 1: Introducción a ANTLR
 
+## Video 
+https://www.youtube.com/watch?v=E5DZqNbuhJ0
+
+
 ## 📋 Descripción General
 
 En este laboratorio trabajarás con **ANTLR**, un generador de analizadores sintácticos. Hemos proporcionado un `Dockerfile` para ayudarte a configurar el entorno rápidamente. Utilizaremos Python para hacer pruebas, ya que es más sencillo que Java para pruebas pequeñas.
