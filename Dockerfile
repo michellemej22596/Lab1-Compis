@@ -61,6 +61,10 @@ COPY python-venv.sh .
 RUN chmod +x ./python-venv.sh
 RUN ./python-venv.sh
 
+RUN pip install --upgrade pip
+RUN apt-get update && apt-get install -y dos2unix
+
+
 COPY requirements.txt .
 # Not production-intended, never do this, this is just a simple example
 RUN pip install -r requirements.txt --break-system-packages 
